@@ -1,0 +1,684 @@
+
+{
+  "header": {
+    "reportVersion": 3,
+    "event": "Exception",
+    "trigger": "Exception",
+    "filename": "report.json",
+    "dumpEventTime": "2025-09-12T10:27:26Z",
+    "dumpEventTimeStamp": "1757647646923",
+    "processId": 6108,
+    "threadId": 0,
+    "cwd": "D:\\Github\\nodejs_learn\\baseNodeJS",
+    "commandLine": [
+      "D:\\laragon\\bin\\nodejs\\node-v20.18.1-win-x64\\node.exe",
+      "report.mjs"
+    ],
+    "nodejsVersion": "v20.18.1",
+    "wordSize": 64,
+    "arch": "x64",
+    "platform": "win32",
+    "componentVersions": {
+      "acorn": "8.12.1",
+      "ada": "2.9.0",
+      "ares": "1.33.1",
+      "base64": "0.5.2",
+      "brotli": "1.1.0",
+      "cjs_module_lexer": "1.4.1",
+      "cldr": "45.0",
+      "icu": "75.1",
+      "llhttp": "8.1.2",
+      "modules": "115",
+      "napi": "9",
+      "nghttp2": "1.61.0",
+      "nghttp3": "0.7.0",
+      "ngtcp2": "1.1.0",
+      "node": "20.18.1",
+      "openssl": "3.0.15+quic",
+      "simdutf": "5.5.0",
+      "tz": "2024b",
+      "undici": "6.20.0",
+      "unicode": "15.1",
+      "uv": "1.46.0",
+      "uvwasi": "0.0.21",
+      "v8": "11.3.244.8-node.23",
+      "zlib": "1.3.0.1-motley-71660e1"
+    },
+    "release": {
+      "name": "node",
+      "lts": "Iron",
+      "headersUrl": "https://nodejs.org/download/release/v20.18.1/node-v20.18.1-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v20.18.1/node-v20.18.1.tar.gz",
+      "libUrl": "https://nodejs.org/download/release/v20.18.1/win-x64/node.lib"
+    },
+    "osName": "Windows_NT",
+    "osRelease": "10.0.26100",
+    "osVersion": "Windows 11 Home Single Language",
+    "osMachine": "x86_64",
+    "cpus": [
+      {
+        "model": "AMD Ryzen 5 7535HS with Radeon Graphics        ",
+        "speed": 3294,
+        "user": 498453,
+        "nice": 0,
+        "sys": 738484,
+        "idle": 6921421,
+        "irq": 155468
+      },
+      {
+        "model": "AMD Ryzen 5 7535HS with Radeon Graphics        ",
+        "speed": 3294,
+        "user": 529687,
+        "nice": 0,
+        "sys": 457796,
+        "idle": 7170828,
+        "irq": 18578
+      },
+      {
+        "model": "AMD Ryzen 5 7535HS with Radeon Graphics        ",
+        "speed": 3294,
+        "user": 963312,
+        "nice": 0,
+        "sys": 601156,
+        "idle": 6593843,
+        "irq": 32718
+      },
+      {
+        "model": "AMD Ryzen 5 7535HS with Radeon Graphics        ",
+        "speed": 3294,
+        "user": 718453,
+        "nice": 0,
+        "sys": 491812,
+        "idle": 6948046,
+        "irq": 26734
+      },
+      {
+        "model": "AMD Ryzen 5 7535HS with Radeon Graphics        ",
+        "speed": 3294,
+        "user": 460343,
+        "nice": 0,
+        "sys": 303843,
+        "idle": 7394125,
+        "irq": 16703
+      },
+      {
+        "model": "AMD Ryzen 5 7535HS with Radeon Graphics        ",
+        "speed": 3294,
+        "user": 455390,
+        "nice": 0,
+        "sys": 289546,
+        "idle": 7413359,
+        "irq": 17390
+      },
+      {
+        "model": "AMD Ryzen 5 7535HS with Radeon Graphics        ",
+        "speed": 3294,
+        "user": 796078,
+        "nice": 0,
+        "sys": 526343,
+        "idle": 6835890,
+        "irq": 27187
+      },
+      {
+        "model": "AMD Ryzen 5 7535HS with Radeon Graphics        ",
+        "speed": 3294,
+        "user": 845828,
+        "nice": 0,
+        "sys": 557968,
+        "idle": 6754500,
+        "irq": 30609
+      },
+      {
+        "model": "AMD Ryzen 5 7535HS with Radeon Graphics        ",
+        "speed": 3294,
+        "user": 579218,
+        "nice": 0,
+        "sys": 390156,
+        "idle": 7188937,
+        "irq": 30062
+      },
+      {
+        "model": "AMD Ryzen 5 7535HS with Radeon Graphics        ",
+        "speed": 3294,
+        "user": 604796,
+        "nice": 0,
+        "sys": 365281,
+        "idle": 7188218,
+        "irq": 23546
+      },
+      {
+        "model": "AMD Ryzen 5 7535HS with Radeon Graphics        ",
+        "speed": 3294,
+        "user": 582578,
+        "nice": 0,
+        "sys": 348593,
+        "idle": 7227140,
+        "irq": 23140
+      },
+      {
+        "model": "AMD Ryzen 5 7535HS with Radeon Graphics        ",
+        "speed": 3294,
+        "user": 475828,
+        "nice": 0,
+        "sys": 302296,
+        "idle": 7380171,
+        "irq": 20531
+      }
+    ],
+    "networkInterfaces": [
+      {
+        "name": "Wi-Fi",
+        "internal": false,
+        "mac": "94:bb:43:e9:80:30",
+        "address": "fe80::53cc:305a:7416:d62e",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 6
+      },
+      {
+        "name": "Wi-Fi",
+        "internal": false,
+        "mac": "94:bb:43:e9:80:30",
+        "address": "10.5.50.48",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "::1",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "127.0.0.1",
+        "netmask": "255.0.0.0",
+        "family": "IPv4"
+      }
+    ],
+    "host": "LAPTOP-MFGS1CRK"
+  },
+  "javascriptStack": {
+    "message": "Error: Ups",
+    "stack": [
+      "at sampleError (file:///D:/Github/nodejs_learn/baseNodeJS/report.mjs:9:11)",
+      "at file:///D:/Github/nodejs_learn/baseNodeJS/report.mjs:12:1",
+      "at ModuleJob.run (node:internal/modules/esm/module_job:234:25)",
+      "at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)"
+    ],
+    "errorProperties": {
+    }
+  },
+  "javascriptHeap": {
+    "totalMemory": 4952064,
+    "executableMemory": 262144,
+    "totalCommittedMemory": 4952064,
+    "availableMemory": 2194162152,
+    "totalGlobalHandlesMemory": 8192,
+    "usedGlobalHandlesMemory": 2688,
+    "usedMemory": 4580608,
+    "memoryLimit": 2197815296,
+    "mallocedMemory": 262264,
+    "externalMemory": 1740414,
+    "peakMallocedMemory": 172368,
+    "nativeContextCount": 2,
+    "detachedContextCount": 0,
+    "doesZapGarbage": 0,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 0,
+        "used": 0,
+        "available": 0
+      },
+      "new_space": {
+        "memorySize": 1048576,
+        "committedMemory": 1048576,
+        "capacity": 1030880,
+        "used": 763400,
+        "available": 267480
+      },
+      "old_space": {
+        "memorySize": 3371008,
+        "committedMemory": 3371008,
+        "capacity": 3309896,
+        "used": 3309336,
+        "available": 560
+      },
+      "code_space": {
+        "memorySize": 262144,
+        "committedMemory": 262144,
+        "capacity": 245712,
+        "used": 245712,
+        "available": 0
+      },
+      "shared_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 0,
+        "used": 0,
+        "available": 0
+      },
+      "new_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 1030880,
+        "used": 0,
+        "available": 1030880
+      },
+      "large_object_space": {
+        "memorySize": 270336,
+        "committedMemory": 270336,
+        "capacity": 262160,
+        "used": 262160,
+        "available": 0
+      },
+      "code_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 0,
+        "used": 0,
+        "available": 0
+      },
+      "shared_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 0,
+        "used": 0,
+        "available": 0
+      }
+    }
+  },
+  "nativeStack": [
+    {
+      "pc": "0x00007ff69c4b73cd",
+      "symbol": "node::GetNodeReport+13693"
+    },
+    {
+      "pc": "0x00007ff69c4bbaab",
+      "symbol": "node::TriggerNodeReport+3643"
+    },
+    {
+      "pc": "0x00007ff69c4baa7e",
+      "symbol": "node::TriggerNodeReport+3518"
+    },
+    {
+      "pc": "0x00007ff69c4b9d01",
+      "symbol": "node::TriggerNodeReport+65"
+    },
+    {
+      "pc": "0x00007ff69c54b34a",
+      "symbol": "node::OnFatalError+6090"
+    },
+    {
+      "pc": "0x00007ff69c54be53",
+      "symbol": "node::OnFatalError+8915"
+    },
+    {
+      "pc": "0x00007ff69c54bafc",
+      "symbol": "node::OnFatalError+8060"
+    },
+    {
+      "pc": "0x00007ff69cf7a88e",
+      "symbol": "v8::SharedValueConveyor::SharedValueConveyor+416270"
+    },
+    {
+      "pc": "0x00007ff69cf7a48a",
+      "symbol": "v8::SharedValueConveyor::SharedValueConveyor+415242"
+    },
+    {
+      "pc": "0x00007ff69cf7a74f",
+      "symbol": "v8::SharedValueConveyor::SharedValueConveyor+415951"
+    },
+    {
+      "pc": "0x00007ff69cf7a5c0",
+      "symbol": "v8::SharedValueConveyor::SharedValueConveyor+415552"
+    },
+    {
+      "pc": "0x00007ff69d06f1ce",
+      "symbol": "v8::PropertyDescriptor::writable+650606"
+    },
+    {
+      "pc": "0x00007ff69cfe0870",
+      "symbol": "v8::PropertyDescriptor::writable+66576"
+    },
+    {
+      "pc": "0x00007ff69d018c13",
+      "symbol": "v8::PropertyDescriptor::writable+296883"
+    },
+    {
+      "pc": "0x00007ff69d0d140c",
+      "symbol": "v8::PropertyDescriptor::writable+1052588"
+    },
+    {
+      "pc": "0x00007ff69d008a55",
+      "symbol": "v8::PropertyDescriptor::writable+230901"
+    },
+    {
+      "pc": "0x00007ff69cfdeb2b",
+      "symbol": "v8::PropertyDescriptor::writable+59083"
+    },
+    {
+      "pc": "0x00007ff69ce8f81f",
+      "symbol": "v8::PrimitiveArray::Length+3951"
+    },
+    {
+      "pc": "0x00007ff69ce8f93b",
+      "symbol": "v8::PrimitiveArray::Length+4235"
+    },
+    {
+      "pc": "0x00007ff69ce9072a",
+      "symbol": "v8::PrimitiveArray::Length+7802"
+    },
+    {
+      "pc": "0x00007ff69ce678f2",
+      "symbol": "v8::base::CPU::has_sse41+1410"
+    },
+    {
+      "pc": "0x00007ff69ce6763c",
+      "symbol": "v8::base::CPU::has_sse41+716"
+    },
+    {
+      "pc": "0x00007ff69c610e42",
+      "symbol": "node::CallbackScope::~CallbackScope+418"
+    },
+    {
+      "pc": "0x00007ff69c610d0e",
+      "symbol": "node::CallbackScope::~CallbackScope+110"
+    },
+    {
+      "pc": "0x00007ff69c529f31",
+      "symbol": "v8::base::CPU::has_fpu+46305"
+    },
+    {
+      "pc": "0x00007ff69c540705",
+      "symbol": "DSA_meth_get_flags+55221"
+    },
+    {
+      "pc": "0x00007ff69c6438aa",
+      "symbol": "uv_timer_stop+1290"
+    },
+    {
+      "pc": "0x00007ff69c63fb2b",
+      "symbol": "uv_update_time+491"
+    },
+    {
+      "pc": "0x00007ff69c63f6a4",
+      "symbol": "uv_run+900"
+    },
+    {
+      "pc": "0x00007ff69c6105a5",
+      "symbol": "node::SpinEventLoop+405"
+    },
+    {
+      "pc": "0x00007ff69c4f5202",
+      "symbol": "EVP_CIPHER_CTX_get_cipher_data+154818"
+    },
+    {
+      "pc": "0x00007ff69c58e42d",
+      "symbol": "node::Start+4909"
+    },
+    {
+      "pc": "0x00007ff69c58d130",
+      "symbol": "node::Start+48"
+    },
+    {
+      "pc": "0x00007ff69c33d9bc",
+      "symbol": "AES_cbc_encrypt+151532"
+    },
+    {
+      "pc": "0x00007ff69d7da55c",
+      "symbol": "inflateValidate+19196"
+    },
+    {
+      "pc": "0x00007ff9b07ee8d7",
+      "symbol": "BaseThreadInitThunk+23"
+    },
+    {
+      "pc": "0x00007ff9b2168d9c",
+      "symbol": "RtlUserThreadStart+44"
+    }
+  ],
+  "resourceUsage": {
+    "free_memory": 1995886592,
+    "total_memory": 16369414144,
+    "rss": 32772096,
+    "available_memory": 1995853824,
+    "userCpuSeconds": 0.031,
+    "kernelCpuSeconds": 0.093,
+    "cpuConsumptionPercent": 12.4,
+    "userCpuConsumptionPercent": 3.1,
+    "kernelCpuConsumptionPercent": 9.3,
+    "maxRss": 54427648,
+    "pageFaults": {
+      "IORequired": 14671,
+      "IONotRequired": 0
+    },
+    "fsActivity": {
+      "reads": 2,
+      "writes": 4
+    }
+  },
+  "libuv": [
+    {
+      "type": "async",
+      "is_active": true,
+      "is_referenced": false,
+      "address": "0x00000238a09034d0"
+    },
+    {
+      "type": "async",
+      "is_active": true,
+      "is_referenced": false,
+      "address": "0x00007ff6a03eba90"
+    },
+    {
+      "type": "timer",
+      "is_active": false,
+      "is_referenced": false,
+      "address": "0x00000238a2516c30",
+      "repeat": 0,
+      "firesInMsFromNow": -47490076,
+      "expired": true
+    },
+    {
+      "type": "check",
+      "is_active": true,
+      "is_referenced": false,
+      "address": "0x00000238a2516cd0"
+    },
+    {
+      "type": "idle",
+      "is_active": false,
+      "is_referenced": true,
+      "address": "0x00000238a2516d48"
+    },
+    {
+      "type": "prepare",
+      "is_active": true,
+      "is_referenced": false,
+      "address": "0x00000238a2516dc0"
+    },
+    {
+      "type": "check",
+      "is_active": true,
+      "is_referenced": false,
+      "address": "0x00000238a2516e38"
+    },
+    {
+      "type": "async",
+      "is_active": true,
+      "is_referenced": false,
+      "address": "0x00000238a2516eb0"
+    },
+    {
+      "type": "tty",
+      "is_active": false,
+      "is_referenced": true,
+      "address": "0x00000238a08fc6c8",
+      "width": 81,
+      "height": 20,
+      "writeQueueSize": 0,
+      "readable": false,
+      "writable": true
+    },
+    {
+      "type": "signal",
+      "is_active": true,
+      "is_referenced": false,
+      "address": "0x00000238a24f6858",
+      "signum": 28,
+      "signal": "SIGWINCH"
+    },
+    {
+      "type": "tty",
+      "is_active": false,
+      "is_referenced": true,
+      "address": "0x00000238a08fd748",
+      "writeQueueSize": 0,
+      "readable": true,
+      "writable": false
+    },
+    {
+      "type": "tty",
+      "is_active": false,
+      "is_referenced": true,
+      "address": "0x00000238a08fbc78",
+      "width": 81,
+      "height": 20,
+      "writeQueueSize": 0,
+      "readable": false,
+      "writable": true
+    },
+    {
+      "type": "loop",
+      "is_active": false,
+      "address": "0x00007ff6a0677bf0",
+      "loopIdleTimeSeconds": 0.0119409
+    }
+  ],
+  "workers": [
+  ],
+  "environmentVariables": {
+    "ACSetupSvcPort": "23210",
+    "ACSvcPort": "17532",
+    "ALLUSERSPROFILE": "C:\\ProgramData",
+    "APPDATA": "C:\\Users\\hafizyazid\\AppData\\Roaming",
+    "CHROME_CRASHPAD_PIPE_NAME": "\\\\.\\pipe\\crashpad_28976_GIKEVYWKEXBISVHC",
+    "CommonProgramFiles": "C:\\Program Files\\Common Files",
+    "CommonProgramFiles(x86)": "C:\\Program Files (x86)\\Common Files",
+    "CommonProgramW6432": "C:\\Program Files\\Common Files",
+    "COMPUTERNAME": "LAPTOP-MFGS1CRK",
+    "ComSpec": "C:\\WINDOWS\\system32\\cmd.exe",
+    "DriverData": "C:\\Windows\\System32\\Drivers\\DriverData",
+    "EFC_6544_1262719628": "1",
+    "EFC_6544_1592913036": "1",
+    "EFC_6544_2283032206": "1",
+    "EFC_6544_2775293581": "1",
+    "EFC_6544_3789132940": "1",
+    "EnableLog": "INFO",
+    "FPS_BROWSER_APP_PROFILE_STRING": "Internet Explorer",
+    "FPS_BROWSER_USER_PROFILE_STRING": "Default",
+    "HOMEDRIVE": "C:",
+    "HOMEPATH": "\\Users\\hafizyazid",
+    "IntelliJ IDEA Community Edition": "C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2025.1.1.1\\bin;",
+    "JAVA_HOME": "C:\\Users\\hafizyazid\\Documents\\Java\\jdk-23.0.2",
+    "LOCALAPPDATA": "C:\\Users\\hafizyazid\\AppData\\Local",
+    "LOGONSERVER": "\\\\LAPTOP-MFGS1CRK",
+    "NUMBER_OF_PROCESSORS": "12",
+    "NVM_HOME": "C:\\Users\\hafizyazid\\.config\\herd\\bin\\nvm",
+    "NVM_SYMLINK": "C:\\Program Files\\nodejs",
+    "OneDrive": "C:\\Users\\hafizyazid\\OneDrive - Telkom University",
+    "ORIGINAL_XDG_CURRENT_DESKTOP": "undefined",
+    "OS": "Windows_NT",
+    "Path": "C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.5\\bin;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.5\\libnvvp;C:\\tools\\cudnn\\bin;C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\laragon\\bin\\php\\php-8.4.3-Win32-vs17-x64;C:\\ProgramData\\ComposerSetup\\bin;D:\\laragon\\bin\\php\\php-8.4.3-Win32-vs17-x64;C:\\Users\\hafizyazid\\.config\\herd\\bin\\nvm;C:\\Program Files\\nodejs;C:\\Program Files\\dotnet\\;C:\\Users\\hafizyazid\\AppData\\Local\\Yarn\\config\\global\\node_modules\\.bin;C:\\Users\\hafizyazid\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\hafizyazid\\AppData\\Roaming\\npm;D:\\laragon\\bin;D:\\laragon\\bin\\apache\\httpd-2.4.54-win64-VS16\\bin;D:\\laragon\\bin\\composer;D:\\laragon\\bin\\git\\bin;D:\\laragon\\bin\\git\\cmd;D:\\laragon\\bin\\git\\mingw64\\bin;D:\\laragon\\bin\\git\\usr\\bin;D:\\laragon\\bin\\laragon\\utils;D:\\laragon\\bin\\mysql\\mysql-8.0.30-winx64\\bin;D:\\laragon\\bin\\nginx\\nginx-1.22.0;D:\\laragon\\bin\\ngrok;D:\\laragon\\bin\\nodejs\\node-v20.18.1-win-x64;D:\\laragon\\bin\\notepad++;D:\\laragon\\bin\\php\\php-8.3.16-Win32-vs16-x64;D:\\laragon\\bin\\python\\python-3.10;D:\\laragon\\bin\\python\\python-3.10\\Scripts;D:\\laragon\\bin\\redis\\redis-x64-5.0.14.1;D:\\laragon\\bin\\telnet;D:\\laragon\\usr\\bin;C:\\Users\\hafizyazid\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\;C:\\Users\\hafizyazid\\AppData\\Local\\Programs\\Python\\Python310\\;C:\\Users\\hafizyazid\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\hafizyazid\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\hafizyazid\\AppData\\Local\\GitHubDesktop\\bin;C:\\Program Files\\JetBrains\\PyCharm Community Edition 2024.3.1.1\\bin;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.5\\bin;C:\\Users\\hafizyazid\\Documents\\Java\\jdk-23.0.2\\bin;C:\\Users\\hafizyazid\\AppData\\Local\\Microsoft\\WindowsApps;;C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2025.1.1.1\\bin;",
+    "PATHEXT": ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.CPL",
+    "PROCESSOR_ARCHITECTURE": "AMD64",
+    "PROCESSOR_IDENTIFIER": "AMD64 Family 25 Model 68 Stepping 1, AuthenticAMD",
+    "PROCESSOR_LEVEL": "25",
+    "PROCESSOR_REVISION": "4401",
+    "ProgramData": "C:\\ProgramData",
+    "ProgramFiles": "C:\\Program Files",
+    "ProgramFiles(x86)": "C:\\Program Files (x86)",
+    "ProgramW6432": "C:\\Program Files",
+    "PSModulePath": "C:\\Users\\hafizyazid\\Documents\\WindowsPowerShell\\Modules;C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules",
+    "PUBLIC": "C:\\Users\\Public",
+    "PyCharm": "C:\\Program Files\\JetBrains\\PyCharm 2024.3.1.1\\bin;",
+    "PyCharm Community Edition": "C:\\Program Files\\JetBrains\\PyCharm Community Edition 2024.3.1.1\\bin;",
+    "RlsSvcPort": "22112",
+    "SESSIONNAME": "Console",
+    "SystemDrive": "C:",
+    "SystemRoot": "C:\\WINDOWS",
+    "TEMP": "C:\\Users\\HAFIZY~1\\AppData\\Local\\Temp",
+    "TMP": "C:\\Users\\HAFIZY~1\\AppData\\Local\\Temp",
+    "USERDOMAIN": "LAPTOP-MFGS1CRK",
+    "USERDOMAIN_ROAMINGPROFILE": "LAPTOP-MFGS1CRK",
+    "USERNAME": "hafizyazid",
+    "USERPROFILE": "C:\\Users\\hafizyazid",
+    "windir": "C:\\WINDOWS",
+    "TERM_PROGRAM": "vscode",
+    "TERM_PROGRAM_VERSION": "1.104.0",
+    "LANG": "en_US.UTF-8",
+    "COLORTERM": "truecolor",
+    "GIT_ASKPASS": "c:\\Users\\hafizyazid\\AppData\\Local\\Programs\\Microsoft VS Code\\resources\\app\\extensions\\git\\dist\\askpass.sh",
+    "VSCODE_GIT_ASKPASS_NODE": "C:\\Users\\hafizyazid\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe",
+    "VSCODE_GIT_ASKPASS_EXTRA_ARGS": "",
+    "VSCODE_GIT_ASKPASS_MAIN": "c:\\Users\\hafizyazid\\AppData\\Local\\Programs\\Microsoft VS Code\\resources\\app\\extensions\\git\\dist\\askpass-main.js",
+    "VSCODE_GIT_IPC_HANDLE": "\\\\.\\pipe\\vscode-git-66f6f9b834-sock",
+    "VSCODE_INJECTION": "1",
+    "VSCODE_NONCE": "c605daa8-4f49-4f46-97a7-3c331908e92f",
+    "VSCODE_STABLE": "1"
+  },
+  "sharedObjects": [
+    "D:\\laragon\\bin\\nodejs\\node-v20.18.1-win-x64\\node.exe",
+    "C:\\WINDOWS\\SYSTEM32\\ntdll.dll",
+    "C:\\WINDOWS\\System32\\KERNEL32.DLL",
+    "C:\\WINDOWS\\System32\\KERNELBASE.dll",
+    "C:\\WINDOWS\\System32\\WS2_32.dll",
+    "C:\\WINDOWS\\System32\\ucrtbase.dll",
+    "C:\\WINDOWS\\SYSTEM32\\dbghelp.dll",
+    "C:\\WINDOWS\\System32\\RPCRT4.dll",
+    "C:\\WINDOWS\\System32\\ole32.dll",
+    "C:\\WINDOWS\\System32\\combase.dll",
+    "C:\\WINDOWS\\System32\\msvcp_win.dll",
+    "C:\\WINDOWS\\System32\\GDI32.dll",
+    "C:\\WINDOWS\\System32\\OLEAUT32.dll",
+    "C:\\WINDOWS\\System32\\win32u.dll",
+    "C:\\WINDOWS\\System32\\gdi32full.dll",
+    "C:\\WINDOWS\\System32\\USER32.dll",
+    "C:\\WINDOWS\\System32\\PSAPI.DLL",
+    "C:\\WINDOWS\\System32\\SHELL32.dll",
+    "C:\\WINDOWS\\System32\\wintypes.dll",
+    "C:\\WINDOWS\\SYSTEM32\\IPHLPAPI.DLL",
+    "C:\\WINDOWS\\System32\\ADVAPI32.dll",
+    "C:\\WINDOWS\\System32\\msvcrt.dll",
+    "C:\\WINDOWS\\SYSTEM32\\USERENV.dll",
+    "C:\\WINDOWS\\System32\\sechost.dll",
+    "C:\\WINDOWS\\System32\\CRYPT32.dll",
+    "C:\\WINDOWS\\SYSTEM32\\bcrypt.dll",
+    "C:\\WINDOWS\\SYSTEM32\\WINMM.dll",
+    "C:\\WINDOWS\\SYSTEM32\\dbgcore.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\CRYPTBASE.DLL",
+    "C:\\WINDOWS\\System32\\IMM32.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\powrprof.dll",
+    "C:\\WINDOWS\\SYSTEM32\\UMPDC.dll",
+    "C:\\WINDOWS\\system32\\uxtheme.dll",
+    "C:\\WINDOWS\\system32\\mswsock.dll",
+    "C:\\WINDOWS\\System32\\bcryptprimitives.dll",
+    "C:\\WINDOWS\\SYSTEM32\\kernel.appcore.dll",
+    "C:\\WINDOWS\\System32\\NSI.dll",
+    "C:\\WINDOWS\\SYSTEM32\\dhcpcsvc6.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\dhcpcsvc.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\DNSAPI.dll",
+    "C:\\WINDOWS\\system32\\napinsp.dll",
+    "C:\\WINDOWS\\System32\\winrnr.dll",
+    "C:\\WINDOWS\\system32\\nlansp_c.dll",
+    "C:\\WINDOWS\\system32\\wshbth.dll"
+  ]
+}
