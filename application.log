@@ -1,0 +1,8 @@
+hello
+ini error
+┌───────────┬──────────┐
+│ (index)   │ Values   │
+├───────────┼──────────┤
+│ firstName │ 'nikita' │
+│ lastName  │ 'Edison' │
+└───────────┴──────────┘
